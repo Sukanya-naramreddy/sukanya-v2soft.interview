@@ -1,0 +1,112 @@
+.form2 {
+    background-color: #1d1d1f	;
+    border: 1px solid;
+    width:261px;
+    margin:auto;
+    padding: 15px;
+    height: 568px;
+    opacity:2px;
+    box-shadow: 5px ​5px #888888;
+    
+
+box-shadow: 3px 3px 2px 0px rgb(210 203 203);
+  }
+  p{
+      color:rgb(247, 238, 238);
+  }
+    .input-container {
+        display: flex;
+        width: 95%;
+        margin-bottom: 15px;
+      }
+      
+      /* Style the form icons */
+      .icon {
+        padding: 10px;
+        background: rgb(161, 44, 63);
+        color: rgb(235, 227, 227);
+        min-width: 50px;
+        text-align: center;
+      }
+      
+      /* Style the input fields */
+      .input-field {
+        width: 100%;
+        padding: 10px;
+        outline: none;
+      }
+      /* Style the Clock  */
+      .input-container2 {
+        display: flex;
+        width: 95%;
+        margin-bottom: 15px;
+      }
+      .icon2 {
+        padding: 10px;
+        background: rgb(161, 44, 63);
+        color: rgb(235, 227, 227);
+        min-width: 50px;
+        text-align: center;
+      }
+      
+      /* Style the input fields */
+      .input-field2 {
+        width: 100%;
+        padding: 10px;
+        outline: none;
+      }
+      
+      .required:after {
+        content:" *";
+        color: red;
+      }
+      .required{
+        width: 40%;
+        padding: 4px;
+        outline: none;
+        float: left;
+        margin: 1px;
+        margin-block-end: 19px;
+        margin-right: 11px;
+        margin-bottom: 8px;
+    }
+
+    .email-field {
+        width: 90%;
+    padding: 4px;
+    outline: none;
+    margin-bottom: 8px;
+    }
+    .placeholder{
+        color:red;
+    }
+    .radio-container {
+        color:whitesmoke;
+    }   
+    #p1{
+        margin:6px;
+    }
+    input[type="radio"] {
+        color:red;
+
+    }
+    #dealer3{
+        color:red;
+    }
+    input[type="radio" ] {
+        
+        border-radius: 50%;
+        outline: none;
+        border: 3px solid rgb(240, 24, 24);
+        margin: 3px 3px 0px 5px;
+        padding: initial;
+        border: initial;
+    }
+.submit{
+    width: 247px;
+    border-color: rgb(161, 44, 63);
+    border-collapse: collapse;
+    background-color: rgb(161, 44, 63);
+    height: 31px;
+    color: white;
+}
